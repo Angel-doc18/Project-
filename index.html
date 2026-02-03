@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<meta name="viewport" content="width=divice-width,scale-size="0.1">
+<link rel ="stylesheet" href="style.css" >
+
+</head>
+<body>
+<!--Form creation-->
+<div id="formWrap">
+<!--Beginning Heading-->
+<h1 id="heading"> STEM School for Girls Registration Form</h1>
+<!--Inputting a logo-->
+<img src="STEM.png" alt="STEM.png" id="logo"><br>  
+<!--Creating form for first name-->
+<form>
+
+<label for="firstname" id="close"> First name</label><br> 
+<input type="text" name="Enter your first name" required autocomplete="off" id="firstName">
+<div id="firstName-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for second name-->
+<label for="secondname" id="close"> Last name</label><br>   
+<input type="text" name="Enter your last name" id="secondName">
+<div id="secondName-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for date of birth-->
+<label for="myDate" id="close">Enter your date of birth:</label><br>    
+<input type="date" name="Enter date of birth" id="myDate">
+<div id="date-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for age-->
+<label for="myAge" id="close">Level of Education:</label><br>    
+<input type="text" name="Enter age" id="myAge">
+<div id="age-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for email address-->
+<label for="email" id="close"> Email </label><br>    
+<input type="email" name="Enter your email address" id="email">
+<div id="email-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for city of residence-->
+<label for="city" id="close"> Current city of residence:</label><br>    
+<input type="text" name="Enter your city of residence" id="city">
+<div id="city-error" class="alert"></div>
+ 
+<br>
+<br>
+<!--Creating a form for phone number-->
+<label for="phone" id="close">Enter your phone number:</label><br>    
+<input type="tel" name="Enter your phone number" id="phone">
+<div id="phone" class="alert"></div>
+<br>
+<br>
+<!--Creating a form for motivation statement-->
+<label for="motivation" id="close">What motivates you in attending this program?(not more than 150words)</label>    
+<input type="text" name="Write motivation" id="motivation">
+<div id="motivation" class="alert"></div>
+<!--Creating a form for expectations-->
+<label for="expectation" id="close">What are your expectations at the end of this program(not more than 150words)</label>    
+<input type="text" name="Write are your expectations" id="expectation">
+<div id="expectations" class="alert"></div>
+<br>
+<!--Creating a form for career goals-->
+<label for="goals" id="close">What are your career goals?</label><br>    
+<input type="text" name="What are your career goals" id="goals">
+<div id="goals-error" class="alert"></div>
+<br>
+<br>
+<!--Creating a form that validates particpation in other STEM programs  -->
+<label for="program" id="close">Have you attended any STEM program before?(answer yes or no), if "yes", what was the training about?</label><br>
+<input type="text" name="State STEM program attended" id="program"><br>
+<div id="program-error" class="alert"></div>
+<br>
+<!--Creating a register button-->
+<button type="submit" id="myButton">Submit</button>
+<br>
+<!--Inputting a footer and a link-->
+<footer>
+<p>Do you have an email account? If not visit  <a href="www.google.com">Google</a><br><br>
+OR</p>
+</footer>
+<!--Creating create new account button-->
+<button type="submit" id="newAccount">Create New Account</button>
+<script src="main.js"></script>
+</form>
+</div>
+</body>
+</html>
